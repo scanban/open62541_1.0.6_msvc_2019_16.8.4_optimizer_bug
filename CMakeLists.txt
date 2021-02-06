@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.18)
+project(opcua_msvc_bug)
+add_executable(main main.cpp open62541_amalgamation/open62541.c)
+target_include_directories(main PUBLIC open62541_amalgamation)
+target_link_libraries(main ws2_32)
