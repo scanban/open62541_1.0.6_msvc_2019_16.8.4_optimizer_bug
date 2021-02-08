@@ -1,7 +1,7 @@
 {
   "environments": [
     {
-      "BuildDir": "R:\\msvc_bug",
+      "BuildDir": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\builds"
     }
   ],
   // See https://go.microsoft.com//fwlink//?linkid=834763 for more information about this file.
